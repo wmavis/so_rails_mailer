@@ -1,24 +1,12 @@
-# README
+Running the following rake task:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```rake mailer_test:copy```
 
-Things you may want to cover:
+Produces this result:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ORIGINAL:
+original@example.com
+Welcome to My Awesome Site
+COPY:
+new_email@example.com
+New subject```
